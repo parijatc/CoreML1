@@ -12,6 +12,9 @@
 		A848FDB820CF81050058D7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A848FDB620CF81050058D7C4 /* Main.storyboard */; };
 		A848FDBA20CF81050058D7C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A848FDB920CF81050058D7C4 /* Assets.xcassets */; };
 		A848FDBD20CF81050058D7C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A848FDBB20CF81050058D7C4 /* LaunchScreen.storyboard */; };
+		A848FDC520CF8A970058D7C4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A848FDC420CF8A970058D7C4 /* Inceptionv3.mlmodel */; };
+		A848FDCB20CF94E20058D7C4 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A848FDCA20CF94E20058D7C4 /* GoogLeNetPlaces.mlmodel */; };
+		A885880B20D0E9BD0047F959 /* RiceSoupClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A885880A20D0E9BD0047F959 /* RiceSoupClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A848FDB920CF81050058D7C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A848FDBC20CF81050058D7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A848FDBE20CF81050058D7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848FDC420CF8A970058D7C4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		A848FDCA20CF94E20058D7C4 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		A885880A20D0E9BD0047F959 /* RiceSoupClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = RiceSoupClassifier.mlmodel; path = ../../MLClassifier/RiceSoupClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		A848FDB120CF81050058D7C4 /* CoreML1 */ = {
 			isa = PBXGroup;
 			children = (
+				A885880A20D0E9BD0047F959 /* RiceSoupClassifier.mlmodel */,
+				A848FDCA20CF94E20058D7C4 /* GoogLeNetPlaces.mlmodel */,
+				A848FDC420CF8A970058D7C4 /* Inceptionv3.mlmodel */,
 				A848FDB220CF81050058D7C4 /* AppDelegate.swift */,
 				A848FDB420CF81050058D7C4 /* ViewController.swift */,
 				A848FDB620CF81050058D7C4 /* Main.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A885880B20D0E9BD0047F959 /* RiceSoupClassifier.mlmodel in Sources */,
 				A848FDB520CF81050058D7C4 /* ViewController.swift in Sources */,
+				A848FDC520CF8A970058D7C4 /* Inceptionv3.mlmodel in Sources */,
 				A848FDB320CF81050058D7C4 /* AppDelegate.swift in Sources */,
+				A848FDCB20CF94E20058D7C4 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
